@@ -62,7 +62,6 @@ hornI = \relative e' {
   (e2) r |
   \clef bass
   e,4 \f (g8. c16 b4 e) |
-  %\clef treble
   g4 \> (fis8 f e dis d cis 
   c!4 \pp a fis c'
   b2) 
@@ -84,7 +83,7 @@ hornII = \relative e' {
     \clef treble r2 r4 es4 \p \< 
     (d2) e4..-> \f e16 |
     \once \override Hairpin.shorten-pair = #'(0 . 2)
-    d2 ~ \> (d8) r es4 \p
+    d2 ~ \> (d8) r es!4 \p
     (d4) c2-> \> (b4 
     c4 ~ \ppp c8) r es2 \p \< |
     es2 d4-> \f (c8. d16) |
@@ -93,9 +92,8 @@ hornII = \relative e' {
       c4 \mf \> 
     (bes2) r4 c \pp 
     (bes2) r |
-    %\clef bass
+    \clef bass
     g4 \f (bes8. es16 d4 g) |
-    \clef treble
     bes4 \> (a8 aes! g! fis f e!
     es!4 \pp c a es' |
     d2)
@@ -129,7 +127,6 @@ hornIII = \relative d' {
     (a2) r |
     \clef bass
     d,4 \f (f8. bes16 a4 d) |
-    %\clef treble
     f \> (e8 es d cis c b! |
     bes!4 \pp g e bes' |
     a2 )
