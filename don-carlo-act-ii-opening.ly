@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.24.0"
 
 \header {
   tagline = ##f
@@ -195,5 +195,4 @@ hornIV = \relative a' {
     >>
   >>
   \layout { }
-  \midi { \tempo 4 = 72 }
 }
